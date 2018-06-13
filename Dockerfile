@@ -1,5 +1,5 @@
 # base image
-FROM httpd:2.4
+FROM httpd
 COPY ./html/ /usr/local/apache2/htdocs/
 
 # build commmand = docker build -t docker-apache-static .
